@@ -4,9 +4,9 @@
   "version": "1.0.5",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open --port 2025",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --open --port 2026"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.1",
